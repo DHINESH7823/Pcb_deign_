@@ -15,26 +15,11 @@ This board combines wireless (Wi-Fi/BLE via ESP32) and wired networking/communic
 | ENC28J60 | SPI-based Ethernet controller |
 | RJ45 Connector | Physical Ethernet port |
 
-## Interface Connections
-
-> Fill in your actual pin mapping below:
-
-**MAX485 (RS-485):**
-- TX → GPIO ??
-- RX → GPIO ??
-- DE/RE → GPIO ??
-
-**ENC28J60 (SPI / Ethernet):**
-- MOSI → GPIO ??
-- MISO → GPIO ??
-- SCK → GPIO ??
-- CS → GPIO ??
-- INT → GPIO ??
 
 ## Power Supply
 
-- Input voltage: _fill in_
-- Onboard regulator: _fill in (e.g. AMS1117-3.3)_
+- Input voltage: 5V
+- Onboard regulator: 3.3V
 
 ## Design Files
 
